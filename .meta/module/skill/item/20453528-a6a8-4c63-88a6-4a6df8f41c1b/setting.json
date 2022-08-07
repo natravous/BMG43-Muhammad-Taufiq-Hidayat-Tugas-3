@@ -19,6 +19,23 @@
         {
           "actions": [
             {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "7f36ef4a-8677-4039-9255-b3b673c16ab5"
+              },
+              "pos": {
+                "x": 1135,
+                "y": 307
+              },
+              "type": "T_Entity"
+            },
+            {
               "__OBJ_TYPE": "Action_Damage",
               "components": [
                 {
@@ -51,23 +68,6 @@
                 "x": 771,
                 "y": 385
               }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj2"
-                }
-              ],
-              "id": {
-                "value": "7f36ef4a-8677-4039-9255-b3b673c16ab5"
-              },
-              "pos": {
-                "x": 1135,
-                "y": 307
-              },
-              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
