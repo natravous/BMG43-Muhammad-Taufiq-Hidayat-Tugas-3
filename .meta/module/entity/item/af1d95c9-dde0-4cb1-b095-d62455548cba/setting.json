@@ -1,0 +1,59 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Pajamas Pumpkin Head Kid/g2052_baby_01.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "type": "Capsule"
+    },
+    "collision": true,
+    "damage": 10,
+    "enableAI": true,
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_af1d95c9-dde0-4cb1-b095-d62455548cba"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "79df3f79-ccbc-4938-b8b8-a5f7960a38d0"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "bac25f24-bec8-4fcf-8783-8a56bd42bfde"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3a927e2a5a70367a8ddadffc48271fc9",
+      "triggers.bts": "6a0c90522e1ec791f774f8fc7e12d334"
+    },
+    "VERSION": "0.22"
+  }
+}

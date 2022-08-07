@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Mesh/Blue Frost Sword/crystal_sword.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Blue Frost Sword/crystal_sword.mesh"
+    },
+    "name": {
+      "value": "item_98e8d519-c738-4744-8eb4-ee54ab961629"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "41604aaa2a2ff5a1251216aad82697e4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

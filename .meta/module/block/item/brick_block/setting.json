@@ -1,0 +1,152 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_brick_block"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/brick.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RemoveBlock",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "7576c74d-52a1-4929-95e4-dd67f65d437f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "5a6ad723-2749-4e08-98ed-a44b8499416b",
+                        "rawval": {
+                          "pos": {
+                            "x": 2.0,
+                            "y": 1.0,
+                            "z": 9.0
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f97c2c8a-4e06-4676-836f-9a42a6f1ba91"
+              },
+              "pos": {
+                "x": 516,
+                "y": 205
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "map"
+                }
+              ],
+              "id": {
+                "value": "7576c74d-52a1-4929-95e4-dd67f65d437f"
+              },
+              "pos": {
+                "x": 1105,
+                "y": 166
+              },
+              "type": "T_MapObj"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "pos"
+                }
+              ],
+              "id": {
+                "value": "5a6ad723-2749-4e08-98ed-a44b8499416b"
+              },
+              "pos": {
+                "x": 1079,
+                "y": 325
+              },
+              "type": "T_ScenePos"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ccf5ffda-2e1e-4364-a7fc-12e46f04a910"
+            },
+            "type": "Trigger_BlockIn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "f97c2c8a-4e06-4676-836f-9a42a6f1ba91"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "8c03fd79-4ad1-44b3-a781-bcf6b6598a7f"
+            },
+            "pos": {
+              "x": 246,
+              "y": 206
+            }
+          },
+          "type": "Trigger_BlockIn"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "db20ed90c85c0c27566ebfcaa4b7be47",
+      "triggers.bts": "a785307d301c699234327b62883e86ed"
+    },
+    "VERSION": "0.22"
+  }
+}

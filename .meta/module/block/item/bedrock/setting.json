@@ -1,0 +1,147 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_bedrock"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ReplaceBlockInRegionSingle",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Block",
+                        "rawval": "myplugin/bedrock"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Block",
+                        "rawval": "myplugin/double_plant_fern_bottom"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "c97dd9c4-51ee-4926-a530-cdd0703d3ab3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SceneRegion",
+                        "rawval": {
+                          "region": {
+                            "max": {
+                              "x": 4,
+                              "y": 4,
+                              "z": 25
+                            },
+                            "min": {
+                              "x": -1,
+                              "z": 22
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0b0809fe-d596-4ad8-885d-5f6dfe712dd5"
+              },
+              "pos": {
+                "x": 711,
+                "y": 250
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "map"
+                }
+              ],
+              "id": {
+                "value": "c97dd9c4-51ee-4926-a530-cdd0703d3ab3"
+              },
+              "pos": {
+                "x": 1489,
+                "y": 403
+              },
+              "type": "T_MapObj"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "7e533eb4-9b23-47ca-b8bb-7435a8a538f9"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "0b0809fe-d596-4ad8-885d-5f6dfe712dd5"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "66e580c2-f428-40c9-8e08-d1045a52836f"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "073266a251502917137dee491182ac32",
+      "triggers.bts": "e7e72a9dac4e2cc9a62e8817877b14e2"
+    },
+    "VERSION": "0.22"
+  }
+}

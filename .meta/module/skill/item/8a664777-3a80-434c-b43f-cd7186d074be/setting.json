@@ -1,0 +1,46 @@
+{
+  "data": {
+    "castAction": "comboAttack3",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Actor/charactor/charactor_boy/effect/05_crown_widget2.effect"
+      }
+    },
+    "name": {
+      "value": "skill_8a664777-3a80-434c-b43f-cd7186d074be"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/296723d9-6663-4f9a-952e-ed4b23d5fff2"
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7ef2f5acbaca0fc328965e0105bc6588",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/af1d95c9-dde0-4cb1-b095-d62455548cba",
+        "id": "8747511353971245057",
+        "name": "enemy",
+        "position": {
+          "x": 1.4063591957092,
+          "y": 0.99999940395355,
+          "z": 15.208662033081
+        },
+        "rotation": {
+          "y": -179.99989318848
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/98e8d519-c738-4744-8eb4-ee54ab961629",
+        "id": "8748403726444855297",
+        "position": {
+          "x": -0.41419368982315,
+          "y": 1.0022996664047,
+          "z": 1.4613699913025
+        }
+      }
+    ],
+    "name": {
+      "value": "map_7b16494a-2097-4404-988e-49ea543da136"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "6a622ba6641e052cb1de2ab7ad900ea0"
+    },
+    "VERSION": "0.22"
+  }
+}

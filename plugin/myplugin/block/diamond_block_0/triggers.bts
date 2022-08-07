@@ -1,0 +1,8 @@
+BLOCK_TOUCH {
+	SetPartPosition(map = "7b16494a-2097-4404-988e-49ea543da136", part = nil, pos = { x = -1.0, y = 1.0, z = 10.0 })
+	SetPartSize(size = { x = 0, y = 0, z = 0 })
+}
+
+BLOCK_ON {
+	SetPartLineVelocity(lv = { x = 1, y = 1, z = 1 }, part = $[GetEntityName(entity = $obj1)])
+}

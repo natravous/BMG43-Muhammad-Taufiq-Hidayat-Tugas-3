@@ -1,0 +1,15 @@
+{
+  "data": {
+    "damage": 10,
+    "maxHp": 100,
+    "name": {
+      "value": "buff_e3662a7b-21ce-49f7-80a3-2f855f071f2b"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bbfb9513383a380511ff25bb415e3d4f"
+    },
+    "VERSION": "0.22"
+  }
+}

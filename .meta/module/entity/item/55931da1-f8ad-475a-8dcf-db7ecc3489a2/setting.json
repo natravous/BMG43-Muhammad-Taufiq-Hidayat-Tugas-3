@@ -1,0 +1,17 @@
+{
+  "data": {
+    "collision": true,
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_55931da1-f8ad-475a-8dcf-db7ecc3489a2"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0cebf68861e8ffcd12387b7a3bd52277",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

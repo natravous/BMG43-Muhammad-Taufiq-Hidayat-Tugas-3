@@ -1,0 +1,105 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "comboAttack3",
+  "castActionTime": -1,
+  "castEffect": {
+    "effect": "asset/Actor/charactor/charactor_boy/effect/05_crown_widget2.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 0,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_act.png",
+  "icon_pushed": "@asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_nor.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/296723d9-6663-4f9a-952e-ed4b23d5fff2"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Self",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

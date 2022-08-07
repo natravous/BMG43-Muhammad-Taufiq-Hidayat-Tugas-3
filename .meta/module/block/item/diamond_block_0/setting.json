@@ -1,0 +1,319 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_diamond_block_0"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/diamond_block.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/diamond_block.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/diamond_block.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/diamond_block.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/diamond_block.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/diamond_block.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetMeshPartPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MeshPart",
+                        "action": "56d02cad-83a7-459b-81bf-41d8df665fc3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "7b16494a-2097-4404-988e-49ea543da136"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -1.0,
+                            "y": 1.0,
+                            "z": 10.0
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2ed90ea0-2ab6-47f1-b354-237557c948cc"
+              },
+              "pos": {
+                "x": 656,
+                "y": 244
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d1926f0f-5539-4bf0-8eed-4189ab37bbd4"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "56d02cad-83a7-459b-81bf-41d8df665fc3"
+              },
+              "pos": {
+                "x": 1270,
+                "y": 334
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d1926f0f-5539-4bf0-8eed-4189ab37bbd4"
+              },
+              "pos": {
+                "x": 1585,
+                "y": 482
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetMeshPartSize",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MeshPart"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4e84b1c4-9327-4626-b6ec-f763b4909ebf"
+              },
+              "pos": {
+                "x": 556,
+                "y": 574
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f375e53d-ba93-4076-89c4-f10940d79cef"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2ed90ea0-2ab6-47f1-b354-237557c948cc"
+                  },
+                  {
+                    "action": "4e84b1c4-9327-4626-b6ec-f763b4909ebf"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d8915dd2-2f1b-4df5-aed2-d93246e63977"
+            },
+            "pos": {
+              "x": 321,
+              "y": 271
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetMeshPartLineVelocity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MeshPart",
+                        "action": "6e5700cb-3827-4d5f-b1e1-95be30cd1c58"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "rawval": {
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ced88ee1-40f1-49a4-a15d-a03cccd25613"
+              },
+              "pos": {
+                "x": 714,
+                "y": 414
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "4b6772d7-b4c2-4de5-8d7e-ea1361449a99"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6e5700cb-3827-4d5f-b1e1-95be30cd1c58"
+              },
+              "pos": {
+                "x": 1118,
+                "y": 495
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c416937f-5beb-4d08-93e0-0fab7a037abe"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4b6772d7-b4c2-4de5-8d7e-ea1361449a99"
+              },
+              "pos": {
+                "x": 1438,
+                "y": 589
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c416937f-5beb-4d08-93e0-0fab7a037abe"
+              },
+              "pos": {
+                "x": 1746,
+                "y": 737
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ecf2ba18-4322-4f50-9b92-74dd91a0c290"
+            },
+            "type": "Trigger_BlockOn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ced88ee1-40f1-49a4-a15d-a03cccd25613"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e823ffca-cdc4-46cd-af48-f3c8fe951c61"
+            }
+          },
+          "type": "Trigger_BlockOn"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "125d30806122e21f55d0ccf30806bd4a",
+      "triggers.bts": "1b842e7a036e019a3efda2f35d46e717"
+    },
+    "VERSION": "0.22"
+  }
+}

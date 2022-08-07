@@ -1,0 +1,22 @@
+BLOCK_TOUCH {
+	ReplaceBlockInRegionSingle(
+		destBlock = "myplugin/double_plant_fern_bottom",
+		map = $map,
+		region = {
+			map = "",
+			max = {
+				__OBJ_TYPE = "Vector3i",
+				x = 4,
+				y = 4,
+				z = 25
+			},
+			min = {
+				__OBJ_TYPE = "Vector3i",
+				x = -1,
+				y = 0,
+				z = 22
+			}
+		},
+		sourceBlock = "myplugin/bedrock"
+	)
+}
