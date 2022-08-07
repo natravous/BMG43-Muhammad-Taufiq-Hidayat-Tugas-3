@@ -1,2 +1,3 @@
-ENTITY_CLICK {
+ENTITY_TOUCH_ALL {
+	Damage(damage = 10, entity = $obj2)
 }

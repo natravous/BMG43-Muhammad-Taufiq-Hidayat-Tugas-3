@@ -17,59 +17,6 @@
     "triggers": {
       "list": [
         {
-          "actions": [
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj2"
-                }
-              ],
-              "id": {
-                "value": "7f36ef4a-8677-4039-9255-b3b673c16ab5"
-              },
-              "pos": {
-                "x": 1135,
-                "y": 307
-              },
-              "type": "T_Entity"
-            },
-            {
-              "__OBJ_TYPE": "Action_Damage",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "7f36ef4a-8677-4039-9255-b3b673c16ab5"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 20
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "94970702-e6e2-450a-a50c-57573dce2247"
-              },
-              "pos": {
-                "x": 771,
-                "y": 385
-              }
-            }
-          ],
           "custom_trigger_data": {
             "name": {
               "value": "0d56c8e6-5188-4011-96fd-e81f807480ab"
@@ -81,9 +28,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "94970702-e6e2-450a-a50c-57573dce2247"
-                  }
+                  []
                 ]
               }
             ],
@@ -99,7 +44,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "16c18524e6adc598baaaa84cb25b9459",
-      "triggers.bts": "f6c209df99ddc5cc3d8e152a35d07608"
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
     },
     "VERSION": "0.22"
   }

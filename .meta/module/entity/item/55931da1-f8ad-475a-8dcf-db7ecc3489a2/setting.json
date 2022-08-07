@@ -5,12 +5,96 @@
     "maxHp": 100,
     "name": {
       "value": "entity_55931da1-f8ad-475a-8dcf-db7ecc3489a2"
+    },
+    "skill": [
+      ""
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "da6ede98-f895-4e87-b39a-e8bcf1833c6f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "48617baf-050c-4546-9b40-cb84dcfea788"
+              },
+              "pos": {
+                "x": 808,
+                "y": 367
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "da6ede98-f895-4e87-b39a-e8bcf1833c6f"
+              },
+              "pos": {
+                "x": 1231,
+                "y": 220
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "b6923f52-effb-4e81-a4c4-e8cd6bf2c486"
+            },
+            "type": "Trigger_ENTITY_TOUCH_ALL"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "48617baf-050c-4546-9b40-cb84dcfea788"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "234da159-b170-4374-9606-1b078e4adb5f"
+            }
+          },
+          "type": "Trigger_ENTITY_TOUCH_ALL"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "0cebf68861e8ffcd12387b7a3bd52277",
-      "triggers.bts": ""
+      "triggers.bts": "eedd8282d39645e4b742a2022a05a3d1"
     },
     "VERSION": "0.22"
   }

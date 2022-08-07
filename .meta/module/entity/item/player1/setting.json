@@ -26,7 +26,6 @@
     },
     "canRevive": true,
     "collision": true,
-    "damage": 20,
     "deadAction": {
       "deathHideTime": {
         "value": 60
@@ -76,7 +75,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ce5298f209f1ee7400ef68a8b37f4465",
+      "setting.json": "81a21d00aa2618a3b4b15beedf4fa8ef",
       "triggers.bts": "e73378ed143a168585fa021460c1d8ca"
     },
     "VERSION": "0.22"
